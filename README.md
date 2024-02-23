@@ -1,5 +1,6 @@
-# Stock-Market-Predictor
-This project is a web application that predicts the market graph using a 50-day moving average and displays the real vs predicted trend. It is designed to be dynamic and works with various companies and stocks. The model is built using popular Python libraries such as pandas, numpy, matplotlib.pyplot, pandas_datareader, plotly.express, streamlit, requests, streamlit_lottie, keras.models, and tensorflow. The sequential model utilizes Dense Dropout and LSTM layers for accurate predictions.
+# Stock Market Prediction Web App
+This project aims to create a web app that predicts and visualizes the stock market trends for various companies using a 50-day moving average. The app uses a sequential model with Dense, Dropout, and LSTM layers to achieve high accuracy. The model is implemented in Python using libraries such as pandas, numpy, matplotlib.pyplot, pandas_datareader, plotly.express, streamlit, requests, streamlit_lottie, keras.models, and tensorflow. The app allows users to select different companies and stocks and compare the real and predicted graphs. The project demonstrates the application of machine learning and data visualization techniques to financial data analysis.
+
 
 ## Dependencies
 To run this web application, you need to have the following dependencies installed:
