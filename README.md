@@ -15,7 +15,7 @@ streamlit_lottie
 keras.models
 tensorflow
 
-[View the website here]( https://huggingface.co/spaces/Harsh23Kashyap/StockMarketPredictor)
+[View the website here]()
 
 
 ## Installation:
@@ -28,10 +28,3 @@ tensorflow
 streamlit run app.py
 ```
 3. Navigate to localhost in your web-browser.
-
-
-Demo Video: 
-
-
-https://user-images.githubusercontent.com/55448981/206937615-05147443-fae3-4aa7-a7c1-64f6663cf028.mp4
-
