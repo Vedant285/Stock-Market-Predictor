@@ -15,7 +15,7 @@ st.set_page_config(
     page_icon=":computer:", #The page favicon. Use the computer emoji
     layout="wide", #The way page content should be laid out. "wide" uses the entire screen.
     menu_items={ #Configure the menu that appears on the top-right side of this app.
-            'About': 'https://www.linkedin.com/in/harsh-kashyap-79b87b193/', #A markdown string to show in the About dialog. Used my linkedIn id
+            'About': 'https://www.linkedin.com/in/vedant5/', #A markdown string to show in the About dialog. Used my linkedIn id
      }
 )
 def load_lottieurl(url: str):
@@ -231,8 +231,3 @@ if val==True:
     plt.title("Stocks for the company "+str(user_input))
     plt.legend()
     st.pyplot(fig)
-
-    
-    
-
-st.markdown("<br><hr><center>Made with ❤️ by <a href='https://www.linkedin.com/in/harsh-kashyap/'><strong>Harsh Kashyap</strong></a></center><hr>", unsafe_allow_html=True)
