@@ -44,7 +44,7 @@ else:
 st.title(":computer:  Stock Market Predictor") #Title heading of the page
 st.markdown("##") 
 
-with st.sidebar:
+''' with st.sidebar:
     st.title("World Market")
     st.title("NIFTY")
     nif = data.DataReader('^NSEI','yahoo', yesterday, today)['Close']
@@ -79,8 +79,7 @@ with st.sidebar:
     st.title("CRUDE OIL")
     gold = data.DataReader('CL=F','yahoo',yesterday, today)['Close']
     st.header(gold.iloc[0].round(2))
-    st.markdown("""---""")
-
+    st.markdown("""---""")'''
    
 
 
