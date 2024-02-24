@@ -32,6 +32,7 @@ yesterday = today - timedelta(days = 1)
 start='2010-01-01'
 end=yesterday;
 
+current=yesterday
 
 if(today.isoweekday()==1):
     current = yesterday = today - timedelta(days = 2)
