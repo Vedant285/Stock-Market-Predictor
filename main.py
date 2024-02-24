@@ -44,7 +44,42 @@ else:
 st.title(":computer:  Stock Market Predictor") #Title heading of the page
 st.markdown("##") 
 
- 
+ with st.sidebar:
+    st.title("World Market")
+    st.title("NIFTY")
+    nif = data.DataReader('^NSEI','yahoo', yesterday, today)['Close']
+    st.header(nif.iloc[0].round(2))
+    st.markdown("""---""")
+    
+    st.title("SENSEX")
+    sen = data.DataReader('^BSESN','yahoo',yesterday, today)['Close']
+    st.header(sen.iloc[0].round(2))
+    st.markdown("""---""")
+    
+    st.title("S&P FUTURES")
+    sp = data.DataReader('ES=F','yahoo',yesterday, today)['Close']
+    st.header(sp.iloc[0].round(2))
+    st.markdown("""---""")
+    
+    st.title("GOLD")
+    gold = data.DataReader('GC=F','yahoo',yesterday, today)['Close']
+    st.header(gold.iloc[0].round(2))
+    st.markdown("""---""")
+    
+    st.title("DOW")
+    dow = data.DataReader('YM=F','yahoo',yesterday, today)['Close']
+    st.header(dow.iloc[0].round(2))
+    st.markdown("""---""")
+    
+    st.title("NASDAQ")
+    nas = data.DataReader('NQ=F','yahoo',yesterday, today)['Close']
+    st.header(nas.iloc[0].round(2))
+    st.markdown("""---""")
+    
+    st.title("CRUDE OIL")
+    gold = data.DataReader('CL=F','yahoo',yesterday, today)['Close']
+    st.header(gold.iloc[0].round(2))
+    st.markdown("""---""") 
    
 
 
